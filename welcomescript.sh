@@ -1,19 +1,8 @@
 #!/bin/bash
 
-# Display a welcome message
-echo "Welcome to the Welcome Service!"
-
-# Display the hostname of the system
-echo "This script is running on $(hostname)"
-
-# Display the current date and time
-echo "Current date and time: $(date)"
-
-# Display the current date and time
+echo "Hello 312 Student!"
+echo "Enter Your Name Please:"
+read name
+echo "$name, welcome to 312 School"
 echo "new unnecessary changes"
-
-# Display the user running the script
-echo "The script is being executed by user: $USER"
-
-exit 0
 
