@@ -1,5 +1,12 @@
 #!/bin/bash
+
+# Welcome message
 echo "Hello 312 Student!"
-echo "Enter Your Name Please:"
+
+# Prompt the user to enter their name
+echo "Enter your name, please:"
 read name
-echo "$nameø, Welcome to 312 School"
+
+# Display a personalized welcome message
+echo "$name, Welcome to 312 School"
+
